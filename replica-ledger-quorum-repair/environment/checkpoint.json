@@ -1,0 +1,27 @@
+{
+  "balances": {
+    "acct-amber": 120,
+    "acct-cinder": 50,
+    "acct-dusk": 75
+  },
+  "applied_ops": {
+    "op-100": {
+      "op_id": "op-100",
+      "kind": "credit",
+      "account": "acct-amber",
+      "amount": 30
+    },
+    "op-101": {
+      "op_id": "op-101",
+      "kind": "debit",
+      "account": "acct-cinder",
+      "amount": 10
+    },
+    "op-102": {
+      "op_id": "op-102",
+      "kind": "credit",
+      "account": "acct-dusk",
+      "amount": 25
+    }
+  }
+}

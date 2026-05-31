@@ -1,0 +1,7 @@
+{"op_id":"op-100","kind":"credit","account":"acct-amber","amount":30}
+{"op_id":"op-200","kind":"credit","account":"acct-amber","amount":15}
+{"op_id":"op-203","kind":"credit","account":"acct-cinder","amount":41}
+{"op_id":"op-204","kind":"debit","account":"acct-amber","amount":12}
+{"op_id":"op-207","kind":"credit","account":"acct-dusk","amount":3}
+{"op_id":"op-208","kind":"debit","account":"acct-cinder","amount":11}
+{"op_id":"op-210","kind":"credit","account":"acct-amber","amount":5}
