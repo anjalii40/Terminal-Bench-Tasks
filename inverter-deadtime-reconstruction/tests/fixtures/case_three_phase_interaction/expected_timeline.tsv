@@ -1,0 +1,7 @@
+tick	A_mode	A_node	B_mode	B_node	C_mode	C_node	Vab	Vbc	Vca
+0	TU	P	TL	N	TL	N	+	0	-
+1	DU	P	DU	P	TL	N	0	+	-
+2	DU	P	DU	P	TL	N	0	+	-
+3	DU	P	TU	P	TL	N	0	+	-
+4	TL	N	TU	P	TL	N	-	+	0
+5	TL	N	TU	P	TL	N	-	+	0

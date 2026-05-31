@@ -1,0 +1,134 @@
+{
+  "verifier_side_fixtures": [
+    {
+      "name": "case_visible",
+      "uses_environment_sample_job": true,
+      "files": [
+        "expected_timeline.tsv",
+        "expected_report.json"
+      ]
+    },
+    {
+      "name": "case_sign_flip",
+      "uses_environment_sample_job": false,
+      "files": [
+        "input/config.json",
+        "input/commands.tsv",
+        "input/currents.tsv",
+        "expected_timeline.tsv",
+        "expected_report.json"
+      ]
+    },
+    {
+      "name": "case_restart_deadtime",
+      "uses_environment_sample_job": false,
+      "files": [
+        "input/config.json",
+        "input/commands.tsv",
+        "input/currents.tsv",
+        "expected_timeline.tsv",
+        "expected_report.json"
+      ]
+    },
+    {
+      "name": "case_restart_reversion_block",
+      "uses_environment_sample_job": false,
+      "files": [
+        "input/config.json",
+        "input/commands.tsv",
+        "input/currents.tsv",
+        "expected_timeline.tsv",
+        "expected_report.json"
+      ]
+    },
+    {
+      "name": "case_z_restart_history",
+      "uses_environment_sample_job": false,
+      "files": [
+        "input/config.json",
+        "input/commands.tsv",
+        "input/currents.tsv",
+        "expected_timeline.tsv",
+        "expected_report.json"
+      ]
+    },
+    {
+      "name": "case_z_committed_family",
+      "uses_environment_sample_job": false,
+      "files": [
+        "input/config.json",
+        "input/commands.tsv",
+        "input/currents.tsv",
+        "expected_timeline.tsv",
+        "expected_report.json"
+      ]
+    },
+    {
+      "name": "case_z_reversion_block",
+      "uses_environment_sample_job": false,
+      "files": [
+        "input/config.json",
+        "input/commands.tsv",
+        "input/currents.tsv",
+        "expected_timeline.tsv",
+        "expected_report.json"
+      ]
+    },
+    {
+      "name": "case_zero_current_float",
+      "uses_environment_sample_job": false,
+      "files": [
+        "input/config.json",
+        "input/commands.tsv",
+        "input/currents.tsv",
+        "expected_timeline.tsv",
+        "expected_report.json"
+      ]
+    },
+    {
+      "name": "case_three_phase_interaction",
+      "uses_environment_sample_job": false,
+      "files": [
+        "input/config.json",
+        "input/commands.tsv",
+        "input/currents.tsv",
+        "expected_timeline.tsv",
+        "expected_report.json"
+      ]
+    },
+    {
+      "name": "case_same_commands_different_currents",
+      "uses_environment_sample_job": false,
+      "files": [
+        "input/config.json",
+        "input/commands.tsv",
+        "input/currents.tsv",
+        "expected_timeline.tsv",
+        "expected_report.json"
+      ]
+    },
+    {
+      "name": "case_report_consistency",
+      "uses_environment_sample_job": false,
+      "files": [
+        "input/config.json",
+        "input/commands.tsv",
+        "input/currents.tsv",
+        "expected_timeline.tsv",
+        "expected_report.json"
+      ]
+    },
+    {
+      "name": "case_long_trace",
+      "uses_environment_sample_job": false,
+      "files": [
+        "input/config.json",
+        "input/commands.tsv",
+        "input/currents.tsv",
+        "expected_timeline.tsv",
+        "expected_report.json"
+      ]
+    }
+  ],
+  "note": "These repository-backed fixtures are verifier-side assets under tests/fixtures. They are intentionally not copied into /environment by environment/Dockerfile."
+}

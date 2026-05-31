@@ -1,0 +1,32 @@
+{
+  "upper_transistor_ticks": {
+    "A": 1,
+    "B": 3,
+    "C": 6
+  },
+  "lower_transistor_ticks": {
+    "A": 1,
+    "B": 4,
+    "C": 2
+  },
+  "upper_diode_ticks": {
+    "A": 6,
+    "B": 2,
+    "C": 2
+  },
+  "lower_diode_ticks": {
+    "A": 4,
+    "B": 1,
+    "C": 2
+  },
+  "floating_ticks": {
+    "A": 0,
+    "B": 2,
+    "C": 0
+  },
+  "restarted_deadtime_events": {
+    "A": 1,
+    "B": 0,
+    "C": 0
+  }
+}
