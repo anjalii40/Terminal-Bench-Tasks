@@ -1,0 +1,33 @@
+{
+  "job_name": "band-check-template",
+  "jobs_dir": "jobs-band",
+  "n_attempts": 1,
+  "orchestrator": {
+    "type": "local",
+    "n_concurrent_trials": 1,
+    "quiet": true,
+    "retry": {
+      "max_retries": 0
+    }
+  },
+  "environment": {
+    "type": "docker",
+    "delete": true,
+    "force_build": false,
+    "kwargs": {}
+  },
+  "verifier": {
+    "disable": false
+  },
+  "agents": [
+    {
+      "name": "codex"
+    }
+  ],
+  "tasks": [
+    {
+      "path": "."
+    }
+  ],
+  "datasets": []
+}

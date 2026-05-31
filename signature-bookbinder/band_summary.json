@@ -1,0 +1,87 @@
+{
+  "passes": 0,
+  "fails": 10,
+  "errors": 10,
+  "results": [
+    {
+      "run": 1,
+      "returncode": 0,
+      "job_name": "band-codex-01",
+      "mean": 0.0,
+      "n_errors": 1,
+      "n_trials": 0
+    },
+    {
+      "run": 2,
+      "returncode": 0,
+      "job_name": "band-codex-02",
+      "mean": 0.0,
+      "n_errors": 1,
+      "n_trials": 0
+    },
+    {
+      "run": 3,
+      "returncode": 0,
+      "job_name": "band-codex-03",
+      "mean": 0.0,
+      "n_errors": 1,
+      "n_trials": 0
+    },
+    {
+      "run": 4,
+      "returncode": 0,
+      "job_name": "band-codex-04",
+      "mean": 0.0,
+      "n_errors": 1,
+      "n_trials": 0
+    },
+    {
+      "run": 5,
+      "returncode": 0,
+      "job_name": "band-codex-05",
+      "mean": 0.0,
+      "n_errors": 1,
+      "n_trials": 0
+    },
+    {
+      "run": 6,
+      "returncode": 0,
+      "job_name": "band-codex-06",
+      "mean": 0.0,
+      "n_errors": 1,
+      "n_trials": 0
+    },
+    {
+      "run": 7,
+      "returncode": 0,
+      "job_name": "band-codex-07",
+      "mean": 0.0,
+      "n_errors": 1,
+      "n_trials": 0
+    },
+    {
+      "run": 8,
+      "returncode": 0,
+      "job_name": "band-codex-08",
+      "mean": 0.0,
+      "n_errors": 1,
+      "n_trials": 0
+    },
+    {
+      "run": 9,
+      "returncode": 0,
+      "job_name": "band-codex-09",
+      "mean": 0.0,
+      "n_errors": 1,
+      "n_trials": 0
+    },
+    {
+      "run": 10,
+      "returncode": 0,
+      "job_name": "band-codex-10",
+      "mean": 0.0,
+      "n_errors": 1,
+      "n_trials": 0
+    }
+  ]
+}

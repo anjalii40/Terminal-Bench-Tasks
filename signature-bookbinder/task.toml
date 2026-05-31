@@ -1,0 +1,12 @@
+name = "signature-bookbinder"
+category = "reasoning"
+difficulty = "hard"
+language = "python"
+timeout_sec = 120
+
+[environment]
+dockerfile = "environment/Dockerfile"
+allow_internet = false
+
+[tests]
+command = "bash tests/test.sh"

@@ -1,0 +1,27 @@
+{
+    "id": "b6e14317-5072-42a8-bf15-7c95147e608f",
+    "started_at": "2026-05-17T13:52:37.739558",
+    "finished_at": "2026-05-17T13:52:47.934218",
+    "n_total_trials": 1,
+    "stats": {
+        "n_trials": 1,
+        "n_errors": 1,
+        "evals": {
+            "codex__adhoc": {
+                "n_trials": 0,
+                "n_errors": 1,
+                "metrics": [
+                    {
+                        "mean": 0.0
+                    }
+                ],
+                "reward_stats": {},
+                "exception_stats": {
+                    "RuntimeError": [
+                        "signature-bookbinder__4ZYkfWH"
+                    ]
+                }
+            }
+        }
+    }
+}

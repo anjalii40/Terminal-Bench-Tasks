@@ -1,0 +1,76 @@
+{
+    "id": "1cd1b1b6-2266-45a2-9cf7-ed1d4d68085c",
+    "task_name": "signature-bookbinder",
+    "trial_name": "signature-bookbinder__ffqUV9f",
+    "trial_uri": "file:///Users/anjaliprajapati/Deccan%20AI%20Project%20Thanos/signature-bookbinder/jobs-band/band-codex-03/signature-bookbinder__ffqUV9f",
+    "task_id": {
+        "path": "."
+    },
+    "source": null,
+    "task_checksum": "5f9f955f0dc8ca612287426dd2cfb92ce09f23f44137639984ca3fe36f44764a",
+    "config": {
+        "task": {
+            "path": ".",
+            "git_url": null,
+            "git_commit_id": null,
+            "overwrite": false,
+            "download_dir": null,
+            "source": null
+        },
+        "trial_name": "signature-bookbinder__ffqUV9f",
+        "trials_dir": "jobs-band/band-codex-03",
+        "timeout_multiplier": 1.0,
+        "agent": {
+            "name": "codex",
+            "import_path": null,
+            "model_name": null,
+            "override_timeout_sec": null,
+            "override_setup_timeout_sec": null,
+            "max_timeout_sec": null,
+            "kwargs": {}
+        },
+        "environment": {
+            "type": "docker",
+            "import_path": null,
+            "force_build": false,
+            "delete": true,
+            "override_cpus": null,
+            "override_memory_mb": null,
+            "override_storage_mb": null,
+            "override_gpus": null,
+            "suppress_override_warnings": false,
+            "kwargs": {}
+        },
+        "verifier": {
+            "override_timeout_sec": null,
+            "max_timeout_sec": null,
+            "disable": false
+        },
+        "job_id": "76c771d5-3d28-46a1-86ce-151c3b24014b"
+    },
+    "agent_info": {
+        "name": "codex",
+        "version": "unknown",
+        "model_info": null
+    },
+    "agent_result": null,
+    "verifier_result": null,
+    "exception_info": {
+        "exception_type": "RuntimeError",
+        "exception_message": "Agent setup failed with exit code 100. See logs in jobs-band/band-codex-03/signature-bookbinder__ffqUV9f/agent/setup",
+        "exception_traceback": "Traceback (most recent call last):\n  File \"/Users/anjaliprajapati/.local/share/uv/tools/harbor/lib/python3.13/site-packages/harbor/trial/trial.py\", line 357, in run\n    await self._setup_agent()\n  File \"/Users/anjaliprajapati/.local/share/uv/tools/harbor/lib/python3.13/site-packages/harbor/trial/trial.py\", line 230, in _setup_agent\n    await asyncio.wait_for(\n    ...<2 lines>...\n    )\n  File \"/Users/anjaliprajapati/.local/share/uv/python/cpython-3.13.12-macos-aarch64-none/lib/python3.13/asyncio/tasks.py\", line 507, in wait_for\n    return await fut\n           ^^^^^^^^^\n  File \"/Users/anjaliprajapati/.local/share/uv/tools/harbor/lib/python3.13/site-packages/harbor/agents/installed/base.py\", line 123, in setup\n    raise RuntimeError(\n    ...<2 lines>...\n    )\nRuntimeError: Agent setup failed with exit code 100. See logs in jobs-band/band-codex-03/signature-bookbinder__ffqUV9f/agent/setup\n",
+        "occurred_at": "2026-05-17T13:51:12.613183"
+    },
+    "started_at": "2026-05-17T08:21:03.717243Z",
+    "finished_at": "2026-05-17T08:21:13.845207Z",
+    "environment_setup": {
+        "started_at": "2026-05-17T08:21:03.720705Z",
+        "finished_at": "2026-05-17T08:21:05.220604Z"
+    },
+    "agent_setup": {
+        "started_at": "2026-05-17T08:21:05.220670Z",
+        "finished_at": "2026-05-17T08:21:12.610154Z"
+    },
+    "agent_execution": null,
+    "verifier": null
+}

@@ -1,0 +1,107 @@
+{
+  "fore_trim": 1,
+  "binding_order": [
+    "cover",
+    "index"
+  ],
+  "signatures": [
+    {
+      "id": "cover",
+      "folds": [
+        "right-over-left",
+        "bottom-over-top"
+      ],
+      "grid": [
+        [
+          {
+            "panel": "cover-1",
+            "front": "C1",
+            "back": "C5",
+            "tab": {
+              "label": "Bird",
+              "edge": "east",
+              "depth": 2
+            }
+          },
+          {
+            "panel": "cover-2",
+            "front": "C2",
+            "back": "C6",
+            "tab": null
+          }
+        ],
+        [
+          {
+            "panel": "cover-3",
+            "front": "C3",
+            "back": "C7",
+            "tab": {
+              "label": "Fox",
+              "edge": "north",
+              "depth": 3
+            }
+          },
+          {
+            "panel": "cover-4",
+            "front": "C4",
+            "back": "C8",
+            "tab": {
+              "label": "Moss",
+              "edge": "west",
+              "depth": 2
+            }
+          }
+        ]
+      ]
+    },
+    {
+      "id": "index",
+      "folds": [
+        "top-over-bottom",
+        "left-over-right"
+      ],
+      "grid": [
+        [
+          {
+            "panel": "index-1",
+            "front": "I1",
+            "back": "I5",
+            "tab": {
+              "label": "Oak",
+              "edge": "south",
+              "depth": 2
+            }
+          },
+          {
+            "panel": "index-2",
+            "front": "I2",
+            "back": "I6",
+            "tab": {
+              "label": "Stone",
+              "edge": "east",
+              "depth": 1
+            }
+          }
+        ],
+        [
+          {
+            "panel": "index-3",
+            "front": "I3",
+            "back": "I7",
+            "tab": null
+          },
+          {
+            "panel": "index-4",
+            "front": "I4",
+            "back": "I8",
+            "tab": {
+              "label": "River",
+              "edge": "west",
+              "depth": 3
+            }
+          }
+        ]
+      ]
+    }
+  ]
+}

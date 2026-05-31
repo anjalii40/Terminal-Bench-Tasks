@@ -1,0 +1,2 @@
+Trial signature-bookbinder__QPVCuhE failed: Agent setup failed with exit code 100. See logs in jobs-band/band-codex-05/signature-bookbinder__QPVCuhE/agent/setup
+Not retrying trial because the maximum number of retries has been reached

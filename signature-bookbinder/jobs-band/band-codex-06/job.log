@@ -1,0 +1,2 @@
+Trial signature-bookbinder__koia3hQ failed: Agent setup failed with exit code 100. See logs in jobs-band/band-codex-06/signature-bookbinder__koia3hQ/agent/setup
+Not retrying trial because the maximum number of retries has been reached
