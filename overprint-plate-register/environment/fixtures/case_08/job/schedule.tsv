@@ -1,0 +1,4 @@
+pass_id	plate	ink	x	y	turn_after	dry_after
+p1	alpha	B	0	0	no	0
+p2	beta	A	1	0	no	0
+p3	gamma	q	4	0	no	0

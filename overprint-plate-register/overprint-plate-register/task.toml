@@ -1,0 +1,12 @@
+name = "overprint-plate-register"
+category = "reasoning"
+difficulty = "medium"
+language = "python"
+timeout_sec = 120
+
+[environment]
+dockerfile = "environment/Dockerfile"
+allow_internet = false
+
+[tests]
+command = "sh tests/test.sh"

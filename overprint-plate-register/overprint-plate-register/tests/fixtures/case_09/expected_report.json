@@ -1,0 +1,13 @@
+{
+  "turned_passes": [
+    "p1",
+    "p3"
+  ],
+  "drag_events": 0,
+  "lost_drags": 3,
+  "ink_counts": {
+    "B": 1,
+    "C": 1,
+    "D": 2
+  }
+}

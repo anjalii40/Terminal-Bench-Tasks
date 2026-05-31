@@ -1,0 +1,6 @@
+pass_id	plate	ink	x	y	turn_after	dry_after
+p1	pair	A	1	0	yes	0
+p2	zig	B	1	0	no	1
+p3	turner	C	6	0	yes	0
+p4	chain	D	1	0	no	0
+p5	probe	E	2	0	no	0

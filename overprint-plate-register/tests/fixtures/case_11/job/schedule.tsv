@@ -1,0 +1,13 @@
+pass_id	plate	ink	x	y	turn_after	dry_after
+p1	pair	A	2	0	no	0
+p2	cross	B	4	0	no	0
+p3	ladder	C	7	1	no	1
+p4	turner	D	13	8	yes	0
+p5	zig	E	3	3	no	0
+p6	rake	F	5	3	no	1
+p7	probe	G	6	4	no	0
+p8	block	H	7	4	no	0
+p9	block	I	20	0	no	1
+p10	tower	J	11	5	no	0
+p11	turner	K	0	9	yes	0
+p12	ladder	L	4	4	no	0

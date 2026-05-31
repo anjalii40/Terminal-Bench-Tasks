@@ -1,0 +1,4 @@
+pass_id	plate	ink	x	y	turn_after	dry_after
+p1	left	A	0	0	yes	0
+p2	right	B	4	0	yes	0
+p3	marker	C	1	0	no	0

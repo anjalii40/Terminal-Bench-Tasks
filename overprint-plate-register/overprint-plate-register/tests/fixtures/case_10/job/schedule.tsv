@@ -1,0 +1,6 @@
+pass_id	plate	ink	x	y	turn_after	dry_after
+p1	seed	A	1	0	no	0
+p2	build	B	1	0	no	0
+p3	turner	C	-5	0	yes	2
+p4	block	E	1	0	no	0
+p5	probe	D	2	0	no	0
