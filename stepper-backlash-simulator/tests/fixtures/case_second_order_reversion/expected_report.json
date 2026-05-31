@@ -1,0 +1,6 @@
+{
+  "idle_ticks": 17,
+  "slewing_ticks": 4,
+  "backlash_ticks": 4,
+  "aborted_backlash_events": 0
+}
