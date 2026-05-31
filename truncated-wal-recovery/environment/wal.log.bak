@@ -1,0 +1,9 @@
+{"tx_id": "tx-1", "type": "BEGIN"}
+{"tx_id": "tx-1", "type": "SET", "key": "user_103", "value": {"name": "Diana", "balance": 700}}
+{"tx_id": "tx-1", "type": "COMMIT"}
+{"tx_id": "tx-2", "type": "BEGIN"}
+{"tx_id": "tx-2", "type": "SET", "key": "user_101", "value": {"name": "Bob", "balance": 120}}
+{"tx_id": "tx-2", "type": "DEL", "key": "user_102"}
+{"tx_id": "tx-2", "type": "COMMIT"}
+{"tx_id": "tx-3", "type": "BEGIN"}
+{"tx_id": "tx-3", "type": "SET", "key": "user_104", "value": {"name": "Eve", "balance": 999}}

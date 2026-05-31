@@ -1,0 +1,5 @@
+{
+  "user_100": {"name": "Alice", "balance": 500},
+  "user_101": {"name": "Bob", "balance": 150},
+  "user_102": {"name": "Charlie", "balance": 300}
+}
